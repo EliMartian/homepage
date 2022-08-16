@@ -1,0 +1,121 @@
+body {
+  background-color: #cdcdce;
+  /* color: #009dff; */
+  color: #cdcdce;
+  font-family: 'Ibarra Real Nova', serif;
+  flex-wrap: wrap;
+}
+
+#navbar_container {
+    font-family: 'Playfair Display', serif;
+    font-size: 19px;
+    justify-content: center;
+    padding: 4px;
+    background-color: #000080;
+    display: flex;
+    align-items: center;
+}
+
+#navbar_container a, #cloud1, #cloud2 {
+    color: lightgrey;
+    padding: 35px;
+    scale: (1.1);
+    transition: all 500ms ease-in-out;
+}
+
+#navbar_container a:hover {
+   transform: scale(1.2);
+   transition: all 500ms ease-in-out;
+   cursor: pointer;
+}
+
+#cloud1:hover, #cloud2:hover {
+    transform: scale(1.45);
+    background-image: url('https://i.pinimg.com/originals/13/ea/31/13ea31cad6749fb95a8df6baa6b44f83.gif');
+    background-image: url('https://i.gifer.com/origin/58/580173ef50289fd49e55e77e6690fe46_w200.gif');
+    background-size: cover;
+    color: darkgrey;
+}
+
+#intro {
+    margin-top: 100px;
+    display: flex;
+}
+
+#intro_text {
+    justify-self: center;
+    background-color: #cdcdce;
+    color: #000080;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 85px;
+    border-color: #000080;
+    margin-right: 3%;
+    margin-left: 5%;
+    transition: all 750ms ease-in-out;
+}
+
+#intro_text:hover {
+    transform: scale(1.065);
+    transition: all 750ms ease-in-out;
+}
+
+#intro > img {
+    margin-left: 3%;
+    width: 600px;
+    height: 400px;
+    justify-self: center;
+    border-radius: 85px;
+    transition: all 3750ms ease-in-out;
+}
+
+#intro > img:hover {
+    /* transform: rotateZ(360deg); */
+    transform: scale3d(1.2, 1.2, 1.4);
+    transition: all 2750ms ease-in-out;
+}
+
+#who_am_i {
+    text-align: center;
+}
+
+#intro_info {
+    padding-top: 30px;
+    padding-left: 28px;
+    padding-right: 28px;
+} 
+
+#cloud1, #cloud2 {
+    color: white;
+    size: 20px;
+}
+
+#intro_info span {
+    transition: all 1500ms ease-in-out;
+    /* font-size: 16px; */ 
+    
+}
+
+#testcloud {
+    width: 90%;
+    height: 90%;
+}
+
+.emphasis {
+    transition: all 1500ms ease-in-out;
+    color: red;
+    font-size: 20px;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+#fit {
+    text-align: center;
+}
+
+#testcloud {
+    padding: -20px;
+}
